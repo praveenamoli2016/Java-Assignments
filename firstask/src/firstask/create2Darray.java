@@ -2,7 +2,7 @@ package firstask;
 
 import java.util.Scanner;
 
-public class create2Darray {
+public class Create2Darray {
 	public static void main(String[] args) {
 		int a[][]=new int[2][2];
 		System.out.println("enter array elements");

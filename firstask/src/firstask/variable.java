@@ -1,6 +1,6 @@
 package firstask;
 
-public class variable {
+public class Variable {
 	public static void variableMethod() {
 		int a; 
 		String b;	 // declaration of this variable

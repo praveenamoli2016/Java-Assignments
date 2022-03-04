@@ -1,24 +1,19 @@
 package firstask;
+                /*scope of variable*/
+//a variable can be declared and defined inside a class,method or block.
+//it defines the scope of variable 
+public class Variable2 {
+	int a = 10; // Instance variable
+	
+	static double b = 20.5; // static variable
+	
+	public static void main(String[] args) {
+		boolean c = true ; // local variable
+    
+		 
+		Variable2 s= new Variable2();
+		System.out.println(s.a+" "+b+" "+c);
+		
+	 }
 
-public class VARIABLE2 {
-	public String name="praveen"; //declaration of instance variable
-			VARIABLE2() //declaration of instance variable
-			{
-		   int id=1234;
-		   System.out.println("id of student:"+id);
-			}
-		public void mySchool() //declaration of user-defined method in instance area
-		{
-			String schoolName="SRJPS";//declaration of local variable
-			System.out.println("name of school:"+schoolName);
-		}
-		//public void mySchool1()
-		/*{
-			System.out.println("name of school:"+schoolName);//not possible because local variable can not access outside the method,constructor or block
-		}*/
-		public static void main(String[] args) {
-			//create the object of class VARIABLE2
-			VARIABLE2 s=new VARIABLE2();
-			s.mySchool();
-		}
 }

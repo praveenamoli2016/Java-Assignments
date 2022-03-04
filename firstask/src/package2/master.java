@@ -1,6 +1,6 @@
 package package2;
 
-public class master {
+public class Master {
 	int a=10;
  public void callMasterMethod()
  {

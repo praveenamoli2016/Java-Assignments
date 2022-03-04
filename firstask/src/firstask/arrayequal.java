@@ -3,7 +3,7 @@ package firstask;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class arrayequal {
+public class Arrayequal {
 
 	public static void main(String[] args) {
 		int a[]=new int[5];

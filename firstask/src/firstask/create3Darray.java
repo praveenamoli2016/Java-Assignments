@@ -2,7 +2,7 @@ package firstask;
 
 import java.util.Scanner;
 
-public class create3Darray {
+public class Create3Darray {
 	public static void main(String[] args) {
 		int size,i;
 		Scanner r = new Scanner(System.in);

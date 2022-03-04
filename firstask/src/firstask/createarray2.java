@@ -2,7 +2,7 @@ package firstask;
 
 import java.util.Scanner;
 
-public class createarray2 {
+public class Createarray2 {
 	public static void main(String[] args) {
 		//int a[]= {10,20,30,40,50};//a[5];
 		int a[]=new int[5];//create array by new keyword
