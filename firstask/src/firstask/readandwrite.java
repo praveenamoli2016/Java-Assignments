@@ -1,14 +1,13 @@
 package firstask;
 
-public class Readandwrite {
-	int Numberofball;
+public class readandwrite {
+	int number_of_ball;
 	public static void main(String[] args) {
-		Readandwrite rr=new Readandwrite();
-		Readandwrite rr2;//reassignment
+		readandwrite rr=new readandwrite();
+		readandwrite rr2;//reassignment
 		rr2 = rr; // dereferances
-		rr.Numberofball=10;  //write
-		System.out.println(rr.Numberofball);//read
-		//System.out.println(rr2.Numberofball);
-	
-}
+		rr.number_of_ball=10;  //write
+		System.out.println(rr.number_of_ball);//read
+		//System.out.println(rr2.number_of_ball);
+	}
 }

@@ -1,6 +1,6 @@
 package firstask;
 
-public class Parenthesestooverride {
+public class parenthesestooverride {
 	public static void main(String[] args) {
 	String str="praveen"; // ye alag hai
 	String str2=new String("praveen");// ye alag hai

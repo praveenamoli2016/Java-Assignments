@@ -7,7 +7,7 @@ public class WrapperClass {
 		double d=20.5;
 		//Integer in=new Integer(10); // wrapper class
 		Integer in=new Integer(i);// boxing,wrapping
-		int j=in.intValue(); // unboxing
+		//int j=in.intValue(); // unboxing
 		Boolean bn=new Boolean(b);
 		Double db=new Double(d);
 		//System.out.println(in);

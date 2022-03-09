@@ -1,10 +1,10 @@
 package firstask;
 
-public class STRING {
+public class string {
 	public static void main(String[] args) {
 		String str="praveen"; 
 		String str2=new String("praveen");
-		String str3="naveen kumar";
+		String str3="naveen";
 		System.out.println(str.compareTo(str2));
 		System.out.println(str.compareTo(str3));
 		System.out.println(str3.compareTo(str2));

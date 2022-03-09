@@ -1,6 +1,6 @@
 package firstask;
 
-public class Ternaryconstructs {
+public class ternaryconstructs {
 	public static void main(String[] args) {
 		//compare three number
 		int a=10,b=20,c=5; 
