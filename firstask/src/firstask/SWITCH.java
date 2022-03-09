@@ -2,11 +2,11 @@ package firstask;
 
 import java.util.Scanner;
 
-public class SWITCH {
+public class Switch {
 	public static void main(String[] args) {
 		int a,b,c,ch;
 		System.out.print("enter anytwo no:");
-		Scanner s=new Scanner(System.in);
+		Scanner s=new Scanner(System.in);  //used for taking input from user
 		a=s.nextInt();
 		b=s.nextInt();
 		System.out.print("enter your choise:");

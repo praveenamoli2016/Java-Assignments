@@ -5,7 +5,7 @@ interface vehical
 	 int Speed=100;   // public+static+final
 	void start();    //public+abstract
 	void stop();     // interface ka koi bhi method ho bydefault vah pub+abshota hai
-	 default void color()
+ default void color()
 	   {
 		   System.out.println("	TVS color is red");  
 	   }
