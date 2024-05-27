@@ -1,12 +1,12 @@
-package Exceptionshandling;
+package firstask.src.Exceptionshandling;
 
 import java.io.File;
 public class Renamefile {
 
 		public static void main(String[] args)  {
 			
-			File f = new File("C:\\Users\\Ram Janki Family\\Desktop\\Praveen.txt");
-			File f2 = new File("C:\\Users\\Ram Janki Family\\Desktop\\Neeraj.txt");
+			File f = new File("C:\\Users\\stanr\\Desktop\\may -2024 java\\OM.txt");
+			File f2 = new File("C:\\Users\\stanr\\Desktop\\may -2024 java\\praveen.txt");
 				if(f.exists())
 					
 			    {

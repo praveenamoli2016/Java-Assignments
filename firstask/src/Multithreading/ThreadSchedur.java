@@ -26,11 +26,11 @@ class Q extends Thread {
   t2.start();
   t3.start();
   //t2.stop();
-  /*String n=Thread.currentThread().getName();
+  String n=Thread.currentThread().getName();
   for(int i=1;i<=5;i++)
    {
        System.out.println(n);
-    }*/
+    }
  }
    }
     

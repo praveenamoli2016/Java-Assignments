@@ -1,7 +1,8 @@
-package secondtask;
+package firstask.src.secondtask;
 abstract class animal
 {
-	void legs()
+	//void legs()
+	animal()
 	{
 		 System.out.println("all animals have 4 legs");
 	}
@@ -9,7 +10,12 @@ abstract class animal
 	abstract void eat();
 }
     class Dog extends animal
+    
     {
+    	Dog(){
+    		super();
+    	}
+    	
     	@Override
     	void sound()
     	{
@@ -22,6 +28,10 @@ abstract class animal
 	 }
      class cow extends animal
      {
+    	 
+    	 cow(){
+     		super();
+     	}
     	 @Override
      	void sound()
      	{
@@ -37,8 +47,10 @@ abstract class animal
 	 public static void main(String[] args) {
 		 Dog d=new Dog();
 		 cow c=new cow();
-		 d.sound(); d.eat(); d.legs();
-		 c.sound(); c.eat();  c.legs();
+		 d.sound(); d.eat(); 
+		 //d.legs();
+		 c.sound(); c.eat(); 
+		 //c.legs();
 		 
 	 }
 

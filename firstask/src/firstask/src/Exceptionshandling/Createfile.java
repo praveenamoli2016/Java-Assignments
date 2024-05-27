@@ -1,11 +1,11 @@
-package Exceptionshandling;
+package firstask.src.Exceptionshandling;
 import java.io.File;
 import java.io.IOException;
 public class Createfile {
 
 		public static void main(String[] args)  {
 			
-			File f = new File("C:\\Users\\Ram Janki Family\\Desktop\\OM.txt");
+			File f = new File("C:\\Users\\stanr\\Desktop\\may -2024 java\\OM.txt");
 			try
 			  {
 				if(f.createNewFile())

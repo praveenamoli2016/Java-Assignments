@@ -1,11 +1,11 @@
-package Exceptionshandling;
+package firstask.src.Exceptionshandling;
 
 import java.io.File;
 public class FileInformation {
 
 		public static void main(String[] args)  {
 			
-			File f = new File("C:\\Users\\Ram Janki Family\\Desktop\\OM.txt");
+			File f = new File("C:\\Users\\stanr\\Desktop\\may -2024 java\\OM.txt");
 			
 				if(f.exists())
 					

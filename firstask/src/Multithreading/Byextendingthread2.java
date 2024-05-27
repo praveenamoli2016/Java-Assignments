@@ -2,9 +2,9 @@
 package Multithreading;
 
   class P2 extends Thread {//esme single thread hai esliye esme 10 sec lag rahe hai
-         //@Override 
-	  //public void run()
-	  public void fun()//ye override method to hai nhi
+       @Override 
+	  public void run()
+	  //public void fun()//ye override method to hai nhi
 	  
             {
             try
@@ -26,8 +26,8 @@ package Multithreading;
     {
      public void main(String[] args) throws InterruptedException{
     P2 t=new P2();
-    //t.start();
-    t.fun();
+    t.start();
+    //t.fun();
      for(int i=1;i<=5;i++)
       {
         System.out.println("neeraj");

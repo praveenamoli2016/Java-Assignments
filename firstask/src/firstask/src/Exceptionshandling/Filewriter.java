@@ -1,5 +1,5 @@
                      /*FileWriter*/
-package Exceptionshandling;
+package firstask.src.Exceptionshandling;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -8,7 +8,7 @@ public class Filewriter {
 	public static void main(String[] args) {
 		try
 		{
-			FileWriter f=new FileWriter("C:\\Users\\Ram Janki Family\\Desktop\\OM.txt");
+			FileWriter f=new FileWriter("C:\\Users\\stanr\\Desktop\\may -2024 java\\OM.txt");
 			try
 			{
 				f.write("java program...");
